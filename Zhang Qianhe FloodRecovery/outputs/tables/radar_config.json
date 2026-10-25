@@ -1,0 +1,23 @@
+{
+  "seed": 43,
+  "training_pixels": 196608,
+  "features": [
+    "intensity",
+    "mean_3",
+    "std_3",
+    "mean_9"
+  ],
+  "intensity_threshold": 0.12000000000000001,
+  "probability_threshold": 0.7000000000000001,
+  "validation_intensity_iou": 0.4500068771398958,
+  "validation_logistic_iou": 0.6631073109840172,
+  "test_pixels": 4194304,
+  "geographic_coordinates": "not specified in the patch files",
+  "split_sizes": {
+    "train": 96,
+    "val": 32,
+    "test": 64
+  },
+  "bootstrap_seed": 44,
+  "bootstrap_repetitions": 1000
+}

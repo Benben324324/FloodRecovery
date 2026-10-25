@@ -1,0 +1,12 @@
+test_flag_alignment_and_categories (test_analysis.AnalysisChecks.test_flag_alignment_and_categories) ... ok
+test_no_decline_has_no_recovery_date (test_analysis.AnalysisChecks.test_no_decline_has_no_recovery_date) ... ok
+test_radar_metric_reference_case (test_analysis.AnalysisChecks.test_radar_metric_reference_case) ... ok
+test_radar_split_pairs (test_analysis.AnalysisChecks.test_radar_split_pairs) ... ok
+test_sparse_dates_do_not_establish_return (test_analysis.AnalysisChecks.test_sparse_dates_do_not_establish_return) ... ok
+test_three_close_supported_dates_establish_return (test_analysis.AnalysisChecks.test_three_close_supported_dates_establish_return) ... ok
+test_window_support_uses_calendar_days (test_analysis.AnalysisChecks.test_window_support_uses_calendar_days) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.411s
+
+OK

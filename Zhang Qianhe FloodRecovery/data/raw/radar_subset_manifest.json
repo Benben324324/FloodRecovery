@@ -1,0 +1,1752 @@
+{
+  "record": "https://doi.org/10.5281/zenodo.7198950",
+  "seed": 42,
+  "original_split_sizes": {
+    "train": 1404,
+    "val": 468,
+    "test": 468
+  },
+  "subset_sizes": {
+    "train": 96,
+    "val": 32,
+    "test": 64
+  },
+  "selected_ids": {
+    "train": [
+      59,
+      85,
+      91,
+      105,
+      113,
+      116,
+      123,
+      124,
+      135,
+      169,
+      179,
+      210,
+      222,
+      223,
+      242,
+      261,
+      264,
+      265,
+      304,
+      314,
+      372,
+      404,
+      436,
+      447,
+      457,
+      479,
+      493,
+      495,
+      502,
+      509,
+      537,
+      543,
+      564,
+      568,
+      575,
+      593,
+      598,
+      603,
+      607,
+      608,
+      635,
+      639,
+      647,
+      658,
+      664,
+      678,
+      680,
+      694,
+      729,
+      744,
+      746,
+      782,
+      851,
+      858,
+      877,
+      917,
+      919,
+      929,
+      934,
+      946,
+      949,
+      971,
+      976,
+      1006,
+      1013,
+      1016,
+      1020,
+      1023,
+      1032,
+      1040,
+      1041,
+      1057,
+      1072,
+      1097,
+      1099,
+      1113,
+      1114,
+      1126,
+      1128,
+      1154,
+      1159,
+      1163,
+      1179,
+      1192,
+      1211,
+      1234,
+      1245,
+      1260,
+      1262,
+      1287,
+      1306,
+      1314,
+      1327,
+      1333,
+      1354,
+      1382
+    ],
+    "val": [
+      36,
+      38,
+      44,
+      52,
+      59,
+      119,
+      125,
+      150,
+      151,
+      158,
+      163,
+      205,
+      206,
+      207,
+      212,
+      221,
+      265,
+      275,
+      314,
+      327,
+      329,
+      338,
+      345,
+      354,
+      361,
+      406,
+      419,
+      422,
+      428,
+      439,
+      453,
+      455
+    ],
+    "test": [
+      4,
+      9,
+      27,
+      35,
+      42,
+      49,
+      55,
+      58,
+      63,
+      64,
+      70,
+      71,
+      113,
+      118,
+      123,
+      124,
+      127,
+      130,
+      138,
+      144,
+      147,
+      164,
+      177,
+      186,
+      191,
+      196,
+      199,
+      205,
+      208,
+      210,
+      212,
+      232,
+      238,
+      240,
+      241,
+      242,
+      246,
+      248,
+      250,
+      253,
+      256,
+      267,
+      275,
+      290,
+      307,
+      310,
+      326,
+      335,
+      340,
+      341,
+      356,
+      373,
+      379,
+      382,
+      406,
+      408,
+      410,
+      422,
+      436,
+      441,
+      449,
+      453,
+      458,
+      465
+    ]
+  },
+  "files": [
+    {
+      "path": "data/raw/radar/test/image/00004.png",
+      "sha256": "91b76556d0dc63d3ecc08efe721a7f3a1f3dd1f488e4dfe993888d02c52ac3b1"
+    },
+    {
+      "path": "data/raw/radar/test/image/00009.png",
+      "sha256": "4021725595759090e6997e50f71d6aeecbbbd6811cd43b933743a25db8319ce1"
+    },
+    {
+      "path": "data/raw/radar/test/image/00027.png",
+      "sha256": "85188e86497580d84e61f9d8d76fc1b5a70cdffe04ab514ef4ff01f1330047ed"
+    },
+    {
+      "path": "data/raw/radar/test/image/00035.png",
+      "sha256": "663d2024955f80c7e37bb0554653ee9d3ce54094a596714d35a443dd5fb3bd68"
+    },
+    {
+      "path": "data/raw/radar/test/image/00042.png",
+      "sha256": "95e16d934242fe6effdc9a7915a329ae101c72001bf83765706f5b731d9a5a4f"
+    },
+    {
+      "path": "data/raw/radar/test/image/00049.png",
+      "sha256": "c26f8dd91373794bcafb88f13e40028fb0e517fbcf3508ae2fb6609d52337d6c"
+    },
+    {
+      "path": "data/raw/radar/test/image/00055.png",
+      "sha256": "7e4b6921bb9a43cdb38d8707817f10fd230aeeab5d578a696519709ba18c299d"
+    },
+    {
+      "path": "data/raw/radar/test/image/00058.png",
+      "sha256": "f27cc053121fe944b9857cc13086e9f230d630587c08e33573beaa8c5d168a19"
+    },
+    {
+      "path": "data/raw/radar/test/image/00063.png",
+      "sha256": "eb75f91b1e667ba5e52885bf15da1c46272e363e84f297eebb0e515eb0b1b9b3"
+    },
+    {
+      "path": "data/raw/radar/test/image/00064.png",
+      "sha256": "c98fd31cfe0dd9a41e8b9d430beef8f4b9ca3d66807fa6b7e46672c48334f5f0"
+    },
+    {
+      "path": "data/raw/radar/test/image/00070.png",
+      "sha256": "338805ab6722ce9947f440f02242dae1476afe828d596cca6cf0daabf4bf9672"
+    },
+    {
+      "path": "data/raw/radar/test/image/00071.png",
+      "sha256": "b170d7a0917a2a85442c4b0e6f4d92f62b714c3cfd585a5d705d949157d8e198"
+    },
+    {
+      "path": "data/raw/radar/test/image/00113.png",
+      "sha256": "2e2876a82d1bf903e72d89efeec9ba2b22c234ef5ebda2484350d89c25159d4b"
+    },
+    {
+      "path": "data/raw/radar/test/image/00118.png",
+      "sha256": "fcaa4f69e634361d07b774693a1fe9ed3e571e2f96dad30f7dd9b1c614f6a124"
+    },
+    {
+      "path": "data/raw/radar/test/image/00123.png",
+      "sha256": "311c44d0bef8cb27c054de032503109af1624e8dd24cd99d7961ee30154dfd41"
+    },
+    {
+      "path": "data/raw/radar/test/image/00124.png",
+      "sha256": "6909f616a229b9b68f05a5398f62a492f9ad305459ca581d005f8c0db892d2aa"
+    },
+    {
+      "path": "data/raw/radar/test/image/00127.png",
+      "sha256": "244ad979b2f1e7261fb90b9dbbf5745d5e919ec77601b1feeda71bde50a71240"
+    },
+    {
+      "path": "data/raw/radar/test/image/00130.png",
+      "sha256": "cb5dd5964134e58d28c74fa300b836bb70e950016c5d4860c7c3b9a1791c4335"
+    },
+    {
+      "path": "data/raw/radar/test/image/00138.png",
+      "sha256": "977cbe3dc1fa8d2eeca8f5a359a7fd7a8ed83b92a7b816d6e6736b58d8c191eb"
+    },
+    {
+      "path": "data/raw/radar/test/image/00144.png",
+      "sha256": "42984f321bed3aa419667199657d62b6663039ad0217eee01e642e9178c74629"
+    },
+    {
+      "path": "data/raw/radar/test/image/00147.png",
+      "sha256": "723e8ffb5607a0e325a3a2cbc32c00b32d3bf8277cecbcaa4b894fdb28b7344d"
+    },
+    {
+      "path": "data/raw/radar/test/image/00164.png",
+      "sha256": "142bec9449535506f3d25b9a9dfdf37d62ef7d706eb9847277c77b7b4dc2f0d5"
+    },
+    {
+      "path": "data/raw/radar/test/image/00177.png",
+      "sha256": "bfdc5c123134a176e583bd9c578a289d301e4bd024415cf3d3eede7b8a7b117d"
+    },
+    {
+      "path": "data/raw/radar/test/image/00186.png",
+      "sha256": "7d618839c91a1477c85a626d13e99eed88b96cde67222d2ffc62f8af608eb76b"
+    },
+    {
+      "path": "data/raw/radar/test/image/00191.png",
+      "sha256": "a7ef4111c2953b2c82fa240f96906c1ecb11fece10e1be9ecabaf4ffcc5f3804"
+    },
+    {
+      "path": "data/raw/radar/test/image/00196.png",
+      "sha256": "988b2cdee4946c48cf176e239845b837fbb16961a21222635fdfd7e4791911e9"
+    },
+    {
+      "path": "data/raw/radar/test/image/00199.png",
+      "sha256": "39ecd7c4905851dcfa6f95b08bd919a300127c8016621ea5dda822b15a52d017"
+    },
+    {
+      "path": "data/raw/radar/test/image/00205.png",
+      "sha256": "b8d85ed0818c78bb5f660d92013fbadcaf2919f95f6919a0e0e9924d57523926"
+    },
+    {
+      "path": "data/raw/radar/test/image/00208.png",
+      "sha256": "af985fc377b9e560e5d397c52cb86fe0015bc599713c57a7e865c23c2b812d17"
+    },
+    {
+      "path": "data/raw/radar/test/image/00210.png",
+      "sha256": "1a107535738d849012461ee983f98f2f05f981526576f4cfffb88cb576894a5f"
+    },
+    {
+      "path": "data/raw/radar/test/image/00212.png",
+      "sha256": "3cd46123ef3bc9d46700ba46b03817d407f5fc9ab47a7de6369dfe4b04773929"
+    },
+    {
+      "path": "data/raw/radar/test/image/00232.png",
+      "sha256": "9d2848f389be2aa310f2aba7e58df45e54f50aed757c4b3ae4587288e19eca32"
+    },
+    {
+      "path": "data/raw/radar/test/image/00238.png",
+      "sha256": "36554ada643e28d8e71acd4c37168a6b6921088e6a153a2246bc63de22f7e872"
+    },
+    {
+      "path": "data/raw/radar/test/image/00240.png",
+      "sha256": "4e50b67e982371c49016d1829e9f80455eaf5d92d674d09964657ec73bb45de9"
+    },
+    {
+      "path": "data/raw/radar/test/image/00241.png",
+      "sha256": "f5ef4586ead18d66eff72fc79d9f4d578722a5699457a6a02c0537e4b33f7352"
+    },
+    {
+      "path": "data/raw/radar/test/image/00242.png",
+      "sha256": "349fd78131deb820ad7114c1aaaadb40ca430b1b0c679b5157d7932961e14e8e"
+    },
+    {
+      "path": "data/raw/radar/test/image/00246.png",
+      "sha256": "05c004a564161103702c611928dabea67c9c20179c3a83cb9f6e880235a21025"
+    },
+    {
+      "path": "data/raw/radar/test/image/00248.png",
+      "sha256": "852e8bd8dff166ac42b4b19c44f04301c358fcdbe91e7497ea3559565d58af32"
+    },
+    {
+      "path": "data/raw/radar/test/image/00250.png",
+      "sha256": "d095364604224e8ea5a0a3ec8add966d75092d36f88ca76c670cfab1c0bd586e"
+    },
+    {
+      "path": "data/raw/radar/test/image/00253.png",
+      "sha256": "856e6de7e7dbe2b8a4921055252d83d1948c6e96f343c483f766f295c13c27d4"
+    },
+    {
+      "path": "data/raw/radar/test/image/00256.png",
+      "sha256": "407fc47e607751ba98704819be2af2b1d38582f0d50d199d3fbeb91db3b07cb9"
+    },
+    {
+      "path": "data/raw/radar/test/image/00267.png",
+      "sha256": "58d7064464660a354a21ed94038a63384cda8c55eecf2ee6e52fdfc3b2da45cc"
+    },
+    {
+      "path": "data/raw/radar/test/image/00275.png",
+      "sha256": "fd38fc947586c6edcdb73dd56c1ff4c4b07a105d03579b7df84cee156a7cabfb"
+    },
+    {
+      "path": "data/raw/radar/test/image/00290.png",
+      "sha256": "6cb4c981400092895740d72a1c24a756cf20244688b938dbd446163d6f888fd8"
+    },
+    {
+      "path": "data/raw/radar/test/image/00307.png",
+      "sha256": "e59d33c0abb8b555a72f1489c8d4d273dd65512f595417a1a770b41476046cce"
+    },
+    {
+      "path": "data/raw/radar/test/image/00310.png",
+      "sha256": "7057ea303e08f0bad3098760f0dc3e0c8264e2b3daad1d26782aba3d30b14419"
+    },
+    {
+      "path": "data/raw/radar/test/image/00326.png",
+      "sha256": "89487958e89e9d7d3ef968de52b868206751fcd2426ef190b6ca86ec9154277c"
+    },
+    {
+      "path": "data/raw/radar/test/image/00335.png",
+      "sha256": "439cad39984b085149d48f2e36394754cd3962c50beb87920d0e090df1c17d9c"
+    },
+    {
+      "path": "data/raw/radar/test/image/00340.png",
+      "sha256": "840316b79b8790ae111d7e6fe08e9d21a4065fe3575ca4f1a2528393c23ba824"
+    },
+    {
+      "path": "data/raw/radar/test/image/00341.png",
+      "sha256": "b41c4f9fc716728e0158da58bd419e54f2e0a4506064af26383d1c758b67c0f0"
+    },
+    {
+      "path": "data/raw/radar/test/image/00356.png",
+      "sha256": "1a698144565ba92e9f4f2ba048652a5836b8f8182f2166bc2d07f700dfae1063"
+    },
+    {
+      "path": "data/raw/radar/test/image/00373.png",
+      "sha256": "152366019f809ea13b6385f322400da1801b6cbf46c795ebcd5737ccb7a870f9"
+    },
+    {
+      "path": "data/raw/radar/test/image/00379.png",
+      "sha256": "06556b1dcb3e2cebef47c3ab8e2cc7699f7885e7abe84b588272c1db63ac382b"
+    },
+    {
+      "path": "data/raw/radar/test/image/00382.png",
+      "sha256": "aea9347d9cd88d8e9d1f41cd94d191cfc3257471067f1cd1b3bd1d48e8fe6bde"
+    },
+    {
+      "path": "data/raw/radar/test/image/00406.png",
+      "sha256": "2464ec1386a51b7768a174f44b3caf9451c8a3fd7c6fb31bf8a7a728d3fefacd"
+    },
+    {
+      "path": "data/raw/radar/test/image/00408.png",
+      "sha256": "73ac885a03435189b6c7d420bd7994aa9a34bf594fb39ebcdc1454cf09f853eb"
+    },
+    {
+      "path": "data/raw/radar/test/image/00410.png",
+      "sha256": "df3f83fedc5f5786283a1e93be22b4fe5c0de4343ab9e2a417f37623679a1081"
+    },
+    {
+      "path": "data/raw/radar/test/image/00422.png",
+      "sha256": "2e59ea0e42c36696a9b06ffe011776a4c932a4148d769d33a687b70a566e721e"
+    },
+    {
+      "path": "data/raw/radar/test/image/00436.png",
+      "sha256": "063344be5fcf4244bdbd850c5b2607817e0874a0c68e7c30fbe08b63238908c7"
+    },
+    {
+      "path": "data/raw/radar/test/image/00441.png",
+      "sha256": "b3aecbd846d59a5804948ec4e235d5754bafc83d54346d3c217b9b9d2181806f"
+    },
+    {
+      "path": "data/raw/radar/test/image/00449.png",
+      "sha256": "14ba69bc1b9704b211ab072249c323fa2a039bb03619eb93c4fabdc97f6e313f"
+    },
+    {
+      "path": "data/raw/radar/test/image/00453.png",
+      "sha256": "a34a840b72032bd516f87ebbb3421d61d98135055dfa3d05b660eead33157ae0"
+    },
+    {
+      "path": "data/raw/radar/test/image/00458.png",
+      "sha256": "9f4556428f4642e26bc721cad813f4f916c3df0d64bfe9c35ea496b88adc61aa"
+    },
+    {
+      "path": "data/raw/radar/test/image/00465.png",
+      "sha256": "47fe5da55a32697cfd7c8eef861ab1916045a5c73692552878cab3366ade4137"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00004.png",
+      "sha256": "23034074401ab2ed5aae731a11e2871084e5ce2c7499ec0b9a2ecd5df3d91577"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00009.png",
+      "sha256": "2210f4bce4b4b027c6ad566c06710b28a66bab4f664aade6edba0e67bcce2ffc"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00027.png",
+      "sha256": "384da49685a8945ad639763399372ebea04c939e3a3a2a036d57a4be0bfbd07b"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00035.png",
+      "sha256": "fd2006b56228b9a555b63917f74c26741f01b1fc335c6c883dfa9462fc4fda21"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00042.png",
+      "sha256": "35251dded6bf2ba96656b5d02f784daa13c8be249dad9ad89945f0ac36cfc260"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00049.png",
+      "sha256": "4952df840b5608b55c9aaf6f51ae30d23466d42d5a6729818011de98e2f6ec65"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00055.png",
+      "sha256": "463b452e16e81706f3a6615f504f1b1de3ba48ee71428c551805ca69ad60a45f"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00058.png",
+      "sha256": "1bfde2c204f4c699f10ec6cdf9d82806462749ad4731ded101e7b921ecedadc0"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00063.png",
+      "sha256": "3706182788717ae2ec3815d6577a8a6004083e404f980ffa9699d8939d070f73"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00064.png",
+      "sha256": "637440fee7c32f127a4fae06856da997a7012ea5f1d56130d2f4da339706f62b"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00070.png",
+      "sha256": "a089c9cf1dbc0b3bc4a882757df1b1db617fb7b92ea6f1b2af54b12c8debc862"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00071.png",
+      "sha256": "43bb274775b948284b0e3f3832f26d21b0a815cb5f4b58faeb2ca83d86efa298"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00113.png",
+      "sha256": "5ac2bdbd335d24a842192e390812affb2c980ab1550ba2ea3eca1e32bfad0aa4"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00118.png",
+      "sha256": "7d962dd8dabb3459660e017e9ebb6317e770f4625faf9acf50e64e4595647c2f"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00123.png",
+      "sha256": "06ca14be3b1383932933fbb37059b5e572b2a43a88cff5555e7d6f9bb79d5998"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00124.png",
+      "sha256": "d92b89fafdc5c2639112525eee9998bf976dc45500215d7213d10e5a96fe7282"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00127.png",
+      "sha256": "3281bd80ca7b37922b2e1f04dbdb4533a7a610667cf1bf52a99c74d1f84d6820"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00130.png",
+      "sha256": "86faa82dd347f17d534bd383e41a46149d43f627e3ef11310dd70e18e4e812d2"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00138.png",
+      "sha256": "7d65a1429665163616cf424b54d96cf8fb64576c9a50d4e70b5dafb8f66c156d"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00144.png",
+      "sha256": "7b25f5a09836aac440296938a221934a2707dee56fcca28af0e6004ee3c271a9"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00147.png",
+      "sha256": "272d89b97b98a29ad73a809d4e63d7f9fff8bf6cfbe8177842f5bc4d010c9763"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00164.png",
+      "sha256": "398900ddc916586eeec27ac5b8f2d444d7f546f4a6b7d3c49fbd8c604eae4e21"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00177.png",
+      "sha256": "99b07cc7b14c339c8f3e0fd34cb3e0e49c5125e7aa498e7c04695dba13722556"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00186.png",
+      "sha256": "e8a53c8fbf9a13f32945e74069b6d255bbde6307f8b54633289c8c5e828182b4"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00191.png",
+      "sha256": "e58e8760aa13588a5fb50fa9fdbc5db3b182094d762b4ff3270280a92607c34d"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00196.png",
+      "sha256": "f39507f9427ef5e107de24c5222f6820b53631e7e78625158b8088c58f4bd2fd"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00199.png",
+      "sha256": "24642d4f9dd7d6e58b7879f5855db87c824e113044dee330a1f8784c1a066a5f"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00205.png",
+      "sha256": "7a4f17cafd0cf46c0e9931c69b5073e2625b620f12f2d79f6febfc49fba426f2"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00208.png",
+      "sha256": "8b2d7ec31a8515701ac898a26526302aaa7a1e7fb0126c02a53dd4c18e7b2895"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00210.png",
+      "sha256": "2b0495c6d1d7f5703f49db59501237e667860008842b1c283b1fde90b02a7a7c"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00212.png",
+      "sha256": "c381ffb473daa0525152f5e9dd5738c5afd7601b25c347becf2e374439a744f3"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00232.png",
+      "sha256": "39e0bdaf798079dfbfc13b469c871efa187d41d00a0317ed5ad8446b08e37abe"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00238.png",
+      "sha256": "d6b9a98464e82ab875f0f5ef77ac7fc0c9155c4cac3cba1f579ff00f25a93025"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00240.png",
+      "sha256": "fbaf2553f950420cab3ea691993196b07739030570995f4dc8fe3dab55cf39e5"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00241.png",
+      "sha256": "7ef6a902d63ad36eb72f15b7cbf3d3ed0a9b6b1de9fe9192b73cc5a57ce9c05d"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00242.png",
+      "sha256": "bf65ab0e38af0cd84edb5bee1d57880cb56456049a19a1f858c37c6451875249"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00246.png",
+      "sha256": "11227ff11bcd2380c60e38d0d775bbed297931471432d91eaf547730afdc4957"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00248.png",
+      "sha256": "8f462dee5b69551cf387a4869a15cf09d1eb242c5364df26c89dc1fa2ca37680"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00250.png",
+      "sha256": "38f661d291cff9a632bc4479f5cc467376a1083993bde1b3c5cf8df812b6eec3"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00253.png",
+      "sha256": "4b07eadeda2457a7a700ac699eb556157761cb5368f22218b5d66d86bf8b111a"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00256.png",
+      "sha256": "a4626a57a23d1e4bd46fd17561cb03fc7f542ad4daffb40551e526c4e24e53ee"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00267.png",
+      "sha256": "abc78aeebe435ba29bc4b5c885b0c0790d60a9a896a4dec7cd8a342753f044e1"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00275.png",
+      "sha256": "e3327c45a9771babd95ea7bc8724c8a8e5420cc74b9c7731c094daad08ae3341"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00290.png",
+      "sha256": "bc92760c089d86a17cce2a2e8403f8e91bbb538cbb9cadc5b0a79a8573a523a0"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00307.png",
+      "sha256": "ba98638251bb4f171f70d0997897238781e187e852f89a6d373cfc91246accf5"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00310.png",
+      "sha256": "1431bb8d7061ecaa60e8f22e30f795c54a8e94125c565446f320330d49d897fb"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00326.png",
+      "sha256": "aab9870a2993375593766e8bf823f353de7f8e181a2363206b2fe19c748e59ef"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00335.png",
+      "sha256": "66d4a03ca72cd990be6465dd01844cb73708e20599c390f1178677bff6586d6f"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00340.png",
+      "sha256": "23bb30bdbf4b4a2e7e7266252fcc5e843529a5120b992d000e8723800f379dce"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00341.png",
+      "sha256": "42f092aa017b9fd543bd0f67d7e76d2ffd4b64d559188961cd88d376eb87ecce"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00356.png",
+      "sha256": "c9c33eeae390358939df43067611fac6678b23bb5842c565868b72cd618be6d3"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00373.png",
+      "sha256": "04939957785b7c7a62c8b0c7cb2a3250f20d349006e2aa15771d827ddbfa1dfa"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00379.png",
+      "sha256": "5397d168b4145b074b5429dfa3e0ad4e67d2049ed057ef16347452a33e616009"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00382.png",
+      "sha256": "2dcc40baf3d55f49823c7eb3cd2d1e17a0cb02e95ca4027bcc8e0e6b3a891f04"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00406.png",
+      "sha256": "f58e6fa9509b8f4f7e9b603c66879bcf01c81afcf8cefda844d8e3b4406ea6cd"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00408.png",
+      "sha256": "a3b22f55f928475f3dfa7137f0c1fa1e7f8613692b43bd04b3f3fa61503e8d62"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00410.png",
+      "sha256": "6f46ec2b44bd8adbc7167d276a9cef8be8df4a40e48cf4f593352d9483696326"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00422.png",
+      "sha256": "4c3f67edbeaa9b1a3aa48fd188de57bb57223d7567cba9b962600e1458d01681"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00436.png",
+      "sha256": "aa2f82ef47cb2fe0e4912fb1539d296610ba5873de61d7812f02d871b25ae0da"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00441.png",
+      "sha256": "806b733690606380eed1ea63277e87f0dd96bda6c02557e0c8e23965e9aa66aa"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00449.png",
+      "sha256": "1532b82e9c810fbaab3fa143e78d4f21e98dda0af4b815e391a743f750139df1"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00453.png",
+      "sha256": "edfc344a75e894254cda14933e14f3cc442311940067f706b4c589e016b9783c"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00458.png",
+      "sha256": "13279f9c5ce4a2767bd248ef7f64ec97397a2d85b628ad7fe1863fcb7a2cecbd"
+    },
+    {
+      "path": "data/raw/radar/test/label_1D/00465.png",
+      "sha256": "d85bb48fbf039d262a3faaf274589257178c6c29deb5f5cf2a6a29ad0d667bc7"
+    },
+    {
+      "path": "data/raw/radar/train/image/00059.png",
+      "sha256": "fe51abb513511e0ebb04c2e8e900da7280a9675813dd57cbb1e532f91342d15c"
+    },
+    {
+      "path": "data/raw/radar/train/image/00085.png",
+      "sha256": "dd43d5cab02c2b17e1d76a915a44b470fd5ed92c93df0f519d6367ddfe44ded7"
+    },
+    {
+      "path": "data/raw/radar/train/image/00091.png",
+      "sha256": "c20d8bba3e4a5a6aadceee8f7bd6e74951fba71557e656602b1b0fdad2681042"
+    },
+    {
+      "path": "data/raw/radar/train/image/00105.png",
+      "sha256": "5db2b0e215339ce550d4f3743b270f094e0ae1f4fa7c6512b03f0c1d251646b5"
+    },
+    {
+      "path": "data/raw/radar/train/image/00113.png",
+      "sha256": "3b3ae525bdaffbf67bc13815413f46f5719ca80cbdcf39abf94ed1218163c9f2"
+    },
+    {
+      "path": "data/raw/radar/train/image/00116.png",
+      "sha256": "402d6b370451340dcc35a8e8128e37e2d2e777b75eca0446929ebad0675fb7f9"
+    },
+    {
+      "path": "data/raw/radar/train/image/00123.png",
+      "sha256": "6503c6de5f2cda12f452bbdb1e80e91a3b68a7cd973916134651cf17ed8c5eb6"
+    },
+    {
+      "path": "data/raw/radar/train/image/00124.png",
+      "sha256": "eef87e439d6151ad299c87890f90b9234eca6573ba1717eb4f2a27ab6c1e09ad"
+    },
+    {
+      "path": "data/raw/radar/train/image/00135.png",
+      "sha256": "4f4f606937ebfa1aca17e55dc48940a1e30abe76df8575c9e59b04d740b98733"
+    },
+    {
+      "path": "data/raw/radar/train/image/00169.png",
+      "sha256": "580eea3918de08d0ea7b57cf32b760d8ebea20e36e8bc3f740a0da0ad65aeb23"
+    },
+    {
+      "path": "data/raw/radar/train/image/00179.png",
+      "sha256": "8d97825a4654942be6bdfd4215003acb86f90de31a3556dee2ed533c6e4f60ae"
+    },
+    {
+      "path": "data/raw/radar/train/image/00210.png",
+      "sha256": "5d19e293b77ac430dd9e8c90fdd5d9bbc1a300ab76287c0406c5c6d779498dd9"
+    },
+    {
+      "path": "data/raw/radar/train/image/00222.png",
+      "sha256": "ae6e2f7afc5b5b032d792a105bf86cbd70f3e605cadcdb932cd39620a5a876d9"
+    },
+    {
+      "path": "data/raw/radar/train/image/00223.png",
+      "sha256": "f48bd6c339b100aa6bf1f27a4c1aa87132f0a595b6af0063332e4e51edb04bac"
+    },
+    {
+      "path": "data/raw/radar/train/image/00242.png",
+      "sha256": "768001beb544028462ae129ead127a049f025845d9199af16fd83b5f08a4545b"
+    },
+    {
+      "path": "data/raw/radar/train/image/00261.png",
+      "sha256": "e6705bb5a52417ff2a5fa9603e933db7fc2de3f471b330529b7995dbb15bd818"
+    },
+    {
+      "path": "data/raw/radar/train/image/00264.png",
+      "sha256": "d179a43bc5dc1da6c5620e95e4f9229f1bda269abe2fd7b439b57b6f230c73b0"
+    },
+    {
+      "path": "data/raw/radar/train/image/00265.png",
+      "sha256": "eeb7987bc5704844333ce2d27083dffb9157c380cfee22d719a8e01555db7da5"
+    },
+    {
+      "path": "data/raw/radar/train/image/00304.png",
+      "sha256": "8967a0242111880678797ac6a3820826aed7ec1886fe4101ee8f131cdaee4ecb"
+    },
+    {
+      "path": "data/raw/radar/train/image/00314.png",
+      "sha256": "de5318f3ac52d8525ac3dbbf5b1d40f9c221ed4aaba5fa8881e0813a4cb0c9d3"
+    },
+    {
+      "path": "data/raw/radar/train/image/00372.png",
+      "sha256": "6cc40057ee5be31dacb42694521ee4a65d326ba909db0f7d55fd9509811326c0"
+    },
+    {
+      "path": "data/raw/radar/train/image/00404.png",
+      "sha256": "e7016cedb691a360a34a4e3c754605d28e84e6116926c3d0723bda78ee136ced"
+    },
+    {
+      "path": "data/raw/radar/train/image/00436.png",
+      "sha256": "d410639b18a2d94f07531407d837d2a6e25d384fc18995125e5570f0a976a3d1"
+    },
+    {
+      "path": "data/raw/radar/train/image/00447.png",
+      "sha256": "0853842293509a82c4da236fcfaa57c7a322e62b988b96b76e251a8585d4c767"
+    },
+    {
+      "path": "data/raw/radar/train/image/00457.png",
+      "sha256": "08ef5b24f230fdc487c10b3db1b6d2b84e8873fd98c6a264fa8e233980b1bc5f"
+    },
+    {
+      "path": "data/raw/radar/train/image/00479.png",
+      "sha256": "dd651f028303f2cc7d384417161a65214f2ea6d3d996a83398043c6dc79b5d4a"
+    },
+    {
+      "path": "data/raw/radar/train/image/00493.png",
+      "sha256": "043657e61283d55199cc346ed99499db24cb156a5307ab20fee8fc9ff8975e65"
+    },
+    {
+      "path": "data/raw/radar/train/image/00495.png",
+      "sha256": "1e278b08030e634039e362b46f697fccdf5676c4ab54f67571e5d1060a4bc306"
+    },
+    {
+      "path": "data/raw/radar/train/image/00502.png",
+      "sha256": "72db8cfc907d6546c18fcf34cbb2d9538607d9403b820e9da9c72910b71cbd6f"
+    },
+    {
+      "path": "data/raw/radar/train/image/00509.png",
+      "sha256": "fa9d452b2581fa6b7869e5af2737366fd3a5b1453b31d4d28fb395587b0994ff"
+    },
+    {
+      "path": "data/raw/radar/train/image/00537.png",
+      "sha256": "31320d392d98a305f902ef9177dd9f51ac5afc53c93fe19dbf8eb0ec2e7d65de"
+    },
+    {
+      "path": "data/raw/radar/train/image/00543.png",
+      "sha256": "bf92e6423903f5875a7177aa266836566bc11d24c14f079c7acbc137c3cc2a67"
+    },
+    {
+      "path": "data/raw/radar/train/image/00564.png",
+      "sha256": "4e4fea246ccd1b1a0fef3864628acac311a07dc34786370d26142a593263ea2e"
+    },
+    {
+      "path": "data/raw/radar/train/image/00568.png",
+      "sha256": "f1208453085fc8360136939c8bca01bc0a28868c1ed9fd46fbd3c326b4c76763"
+    },
+    {
+      "path": "data/raw/radar/train/image/00575.png",
+      "sha256": "e7428ca54518c71e8f4460ff6012467d85c5997175176fe8a7fff38a8e6757cd"
+    },
+    {
+      "path": "data/raw/radar/train/image/00593.png",
+      "sha256": "ead5a386a02b275522b99311d2ba7243a4dbc2339eca33d10ecac9e7241aed67"
+    },
+    {
+      "path": "data/raw/radar/train/image/00598.png",
+      "sha256": "c51aa3551b0ce1fae2157f70ea284f273b60e08ff93a081ade46a8bc252ab1fa"
+    },
+    {
+      "path": "data/raw/radar/train/image/00603.png",
+      "sha256": "6d4a507356bcb5b96401367696a0577b685e7fa84693c81f2a053de98e0d9b0a"
+    },
+    {
+      "path": "data/raw/radar/train/image/00607.png",
+      "sha256": "fbfdba91efe80a6d2e0d846663e94016b587987718d0c622bbf756a216fee428"
+    },
+    {
+      "path": "data/raw/radar/train/image/00608.png",
+      "sha256": "5edf1d5a7eeeec393fa2d469d3e9f8efae110c9f7eb286fdd8088eca76f6b70f"
+    },
+    {
+      "path": "data/raw/radar/train/image/00635.png",
+      "sha256": "e7675a2efa4d799135d70ab4f27354c23df3533e150e1836533181ee7fe37beb"
+    },
+    {
+      "path": "data/raw/radar/train/image/00639.png",
+      "sha256": "26db31b0337c8ab497078418ba7ece7fb04a2ff36c3473af8412efc689414ae5"
+    },
+    {
+      "path": "data/raw/radar/train/image/00647.png",
+      "sha256": "514d16d3d5064ec6581a4a47129f5807495aa6c44868d7e926f051e29b5d18cc"
+    },
+    {
+      "path": "data/raw/radar/train/image/00658.png",
+      "sha256": "3ad4a5ff1e9f22984de02ed927a038976ff64656ea325e4ae5cb79231629f24b"
+    },
+    {
+      "path": "data/raw/radar/train/image/00664.png",
+      "sha256": "5d15f11fab4a626edc7f52c9b7130775349ef513fac73e8c50898f124daf0b99"
+    },
+    {
+      "path": "data/raw/radar/train/image/00678.png",
+      "sha256": "c353523e21af515893deca1b61f4389e684d22dbdb7d70e8e829c88de82b721c"
+    },
+    {
+      "path": "data/raw/radar/train/image/00680.png",
+      "sha256": "ea13e10915f328490b2b00fbebc2902d1fbaa1db20792711bfb96b377f7cfed9"
+    },
+    {
+      "path": "data/raw/radar/train/image/00694.png",
+      "sha256": "e1a47634ec91a965dd0879be5d59a134562f8a2d05c1407a159f2b7f2d7b7042"
+    },
+    {
+      "path": "data/raw/radar/train/image/00729.png",
+      "sha256": "f6f077c8bbd58bc22b72804b499dfc508ed0d8dd9cb633f91d6dbc0ae2c4b9b9"
+    },
+    {
+      "path": "data/raw/radar/train/image/00744.png",
+      "sha256": "edf9718ee7e2376df5ac66a0056b7bbca895db54e5e1bddcc7b5da437d28c039"
+    },
+    {
+      "path": "data/raw/radar/train/image/00746.png",
+      "sha256": "ad5b0129d645df081ba417d01c10e4b51fe3b6fa06356f0def9eb4fc8e73f085"
+    },
+    {
+      "path": "data/raw/radar/train/image/00782.png",
+      "sha256": "93a40f9b6e42ff1b11af96158ac7fe03c0c1da1b72975092e95da4086efb04e8"
+    },
+    {
+      "path": "data/raw/radar/train/image/00851.png",
+      "sha256": "749317a2eb7101eb778be90d932d40585d72ae806c3ba5ab281dec2c7c45d436"
+    },
+    {
+      "path": "data/raw/radar/train/image/00858.png",
+      "sha256": "f2c0f7bca26b2ab95ba5b00fec30fc5c969ab877df501672fb7f52e81b2915f8"
+    },
+    {
+      "path": "data/raw/radar/train/image/00877.png",
+      "sha256": "05e98c53808986b5ef0cfa3e7d70d1537182fcd0879af4b1c74f4d3f04f6c873"
+    },
+    {
+      "path": "data/raw/radar/train/image/00917.png",
+      "sha256": "a3c6ceb0389b6e9d109cac3da6e327cf3cea7a02e042bed601555392040f070d"
+    },
+    {
+      "path": "data/raw/radar/train/image/00919.png",
+      "sha256": "a069f5a17cceecd9923101a817108335a9c7b87f476c096d6200361ea31d6085"
+    },
+    {
+      "path": "data/raw/radar/train/image/00929.png",
+      "sha256": "0878ab9eafbce5c0b757df314d5e7873ba9a405a4a5fa6e1a4ac3029421ca9af"
+    },
+    {
+      "path": "data/raw/radar/train/image/00934.png",
+      "sha256": "32d43b210c2b0c40072be4a2961c504947d1b9beb96783286d293f3f74c2425a"
+    },
+    {
+      "path": "data/raw/radar/train/image/00946.png",
+      "sha256": "f998c1a71749f3249d05905699fc2444c6952fbc9f5875d4ffbe821097a68625"
+    },
+    {
+      "path": "data/raw/radar/train/image/00949.png",
+      "sha256": "c06db112e1401f49ba885ce9f62c51a3eea48b53cae99e38ff5382dbce872979"
+    },
+    {
+      "path": "data/raw/radar/train/image/00971.png",
+      "sha256": "4b1da5d6a56d7557ebc9597bc2d355d8b635f61e06f554fe7811d08ede19e3ef"
+    },
+    {
+      "path": "data/raw/radar/train/image/00976.png",
+      "sha256": "ef342392a735927f60b1f310bd1af720b90f661da923bf7ab1b2ca97815b27f2"
+    },
+    {
+      "path": "data/raw/radar/train/image/01006.png",
+      "sha256": "4e173b56611be2b1215623b91e4426b1b6eaebe9e28f25ba990649008f7eea5f"
+    },
+    {
+      "path": "data/raw/radar/train/image/01013.png",
+      "sha256": "102009d89b6580208edd96b450dc293c7bc8c65e9d3a4b520aba6e30a8475154"
+    },
+    {
+      "path": "data/raw/radar/train/image/01016.png",
+      "sha256": "5b44510d16167c603863353a58a03e1d97f5deef65a373800ca1cb15921092d7"
+    },
+    {
+      "path": "data/raw/radar/train/image/01020.png",
+      "sha256": "b8fa088acb62dda3881297ee380b327cfe579403b607b5b005b7bae9b0cb8d75"
+    },
+    {
+      "path": "data/raw/radar/train/image/01023.png",
+      "sha256": "877dfbdab3d70eb917c93a6e9e90249b065da723904502e2a4db8dbb386c448a"
+    },
+    {
+      "path": "data/raw/radar/train/image/01032.png",
+      "sha256": "3d3c82e6e13ee7671e1fb386631b310476ba59a894ebdd77de292f7ac18dd6a1"
+    },
+    {
+      "path": "data/raw/radar/train/image/01040.png",
+      "sha256": "6d20f154fbfef82d8802acf26cc70944cc3c7535e750d78fff3fae2530f0dada"
+    },
+    {
+      "path": "data/raw/radar/train/image/01041.png",
+      "sha256": "3c3bb265d768841cc1014f05c736a1830615c01bd5c13340871dfb1348e6efdc"
+    },
+    {
+      "path": "data/raw/radar/train/image/01057.png",
+      "sha256": "2fa2f6f256ea48e02fb01f2bccc437143d78f1fd0a1be84f4f2ff4f222302452"
+    },
+    {
+      "path": "data/raw/radar/train/image/01072.png",
+      "sha256": "1936577599c891298f8d012458a7ad548311910e75d270b7c4a14016a9e6be21"
+    },
+    {
+      "path": "data/raw/radar/train/image/01097.png",
+      "sha256": "5916113e3a669a8c1ae5e86dab47b6e6f95d154aa3cad6465325d7fed960936b"
+    },
+    {
+      "path": "data/raw/radar/train/image/01099.png",
+      "sha256": "fa68d6a721a2a723e51eea25f5721a2af7daf7376069b2271b5cac17dc3791f9"
+    },
+    {
+      "path": "data/raw/radar/train/image/01113.png",
+      "sha256": "f57332d321730993dfac902f9ab672f515f473fd3021107edf527b569b308f0e"
+    },
+    {
+      "path": "data/raw/radar/train/image/01114.png",
+      "sha256": "58bf65f0f34813de0dfc59685dad4ba3cd369c0f4d517d10a0eb3a860401c813"
+    },
+    {
+      "path": "data/raw/radar/train/image/01126.png",
+      "sha256": "cf9cdd16cb5e9ac94c33dfbcbc6171b6131ab33808d10ff873126b719e211d97"
+    },
+    {
+      "path": "data/raw/radar/train/image/01128.png",
+      "sha256": "11011423c486d945f5aee0cdd28e536111f1b790bd41b02cfbab62deb0d0a6bd"
+    },
+    {
+      "path": "data/raw/radar/train/image/01154.png",
+      "sha256": "08fb6bb37176de6dbd3c707f650f3314a63eacf4a0ee2be0c2ee35017c1cd3cf"
+    },
+    {
+      "path": "data/raw/radar/train/image/01159.png",
+      "sha256": "aeb4b540a4bdb984efcf53c48befb02a136ef44095bed42f82f62f54ba31c68a"
+    },
+    {
+      "path": "data/raw/radar/train/image/01163.png",
+      "sha256": "29b905129059deea2a099a0798c91f01fa0ac9ab97de1efb034d98b364a1c3e3"
+    },
+    {
+      "path": "data/raw/radar/train/image/01179.png",
+      "sha256": "045e2cd374944bee0d42e0042aea7e680b22004763c706ade27f5f9d3956c33b"
+    },
+    {
+      "path": "data/raw/radar/train/image/01192.png",
+      "sha256": "ddcbf69f6761bf804cd2d2d726b149066e0bcd50984fcee633fa849904b3d5f1"
+    },
+    {
+      "path": "data/raw/radar/train/image/01211.png",
+      "sha256": "56c56499317037bf4bf220e17480c5bd850bc7bd3e799d6003facc8fbc125f42"
+    },
+    {
+      "path": "data/raw/radar/train/image/01234.png",
+      "sha256": "f458ed300b68f81777b11401a77c3992025a92d25b8f1e828abb7895cf401d81"
+    },
+    {
+      "path": "data/raw/radar/train/image/01245.png",
+      "sha256": "0036f8f2ec0f295cda6606177e33e9f3fb11d9d13421bce3e44c7147aa0b0658"
+    },
+    {
+      "path": "data/raw/radar/train/image/01260.png",
+      "sha256": "48b02204ce981d56093dda9dce702cec4c398c874496c2003025cee65a9170ad"
+    },
+    {
+      "path": "data/raw/radar/train/image/01262.png",
+      "sha256": "6307215af43d51cfd7a6e3373f3cce5e72e72544e03f1bb556b7bed5c7fa9bad"
+    },
+    {
+      "path": "data/raw/radar/train/image/01287.png",
+      "sha256": "8c4f4d1863085b2a971b786223af0cd63e61eea84cc344a2a42474aa71eac6bc"
+    },
+    {
+      "path": "data/raw/radar/train/image/01306.png",
+      "sha256": "a82a3ebc6031a952b233c647c9100cc19618b32ad163fbf98a3724ab7de6418e"
+    },
+    {
+      "path": "data/raw/radar/train/image/01314.png",
+      "sha256": "bb38cbd09652cca9e53afa331bae44ede54fc39bd1c227eaa1c6ee4af071d7c3"
+    },
+    {
+      "path": "data/raw/radar/train/image/01327.png",
+      "sha256": "f91a25e281c267d05965d6bc0f0e11aa09e532ce2adad2a843db73a50014b8f2"
+    },
+    {
+      "path": "data/raw/radar/train/image/01333.png",
+      "sha256": "c75ff85e12711665b7f6d57f1a5af55c3ea8f3fae337f02331bacd22ca3a5650"
+    },
+    {
+      "path": "data/raw/radar/train/image/01354.png",
+      "sha256": "510fe1ed9cbbcb347931eefb0bb437fdcb23158ae6bbcb49d22547779dcb102f"
+    },
+    {
+      "path": "data/raw/radar/train/image/01382.png",
+      "sha256": "6c7e5a135039b91f6ee56798df9d6bbbb64dbfa3d279ca99a7f4adce3d2ac439"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00059.png",
+      "sha256": "f59f35ad7783e417fd06851fd153da2cc1575f4334a8ea526f69abb4d2e49ec9"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00085.png",
+      "sha256": "9295c45e4ebb336332e460e091d465170f97f8e961248396ad3fb814ffbbaa12"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00091.png",
+      "sha256": "c5e9c1f738b2dd76cbf9cae4f1f99ad6c2d7abea32670617540f95a76ddaf107"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00105.png",
+      "sha256": "87f816769135feceaec9282b0f72f82f6c6da119e9c58f3691cbf5dc664915db"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00113.png",
+      "sha256": "e5b3eecaeca4cf0a5a608fac97057bce17c56932870d6ebffb7e767ecc50852d"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00116.png",
+      "sha256": "2d9965dff566ec1acf85cf9d7281e9e7027a6f11e4ed8e57f06eaf3a2fca0b12"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00123.png",
+      "sha256": "f59912049dd12bed443386491cf09cfdc8734159e04d728ab070e711380f8bf9"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00124.png",
+      "sha256": "2f9a2c9f58a594372891be12390ef8f3132fa636d6b5e549ea24a4a3ce75439d"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00135.png",
+      "sha256": "596329fd781ecfc46139d667f41a1e2f09f582dbdd98015f5cba7595cb1c856e"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00169.png",
+      "sha256": "fc95d825fcaa20f8b638eb57d70b426aa537b7fd854fd33e0d3e06d23f8276ba"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00179.png",
+      "sha256": "4c6ba0cbc0d2742b1891e52206968d97b93a66ef14fac7f45ed614aa35d8dd0c"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00210.png",
+      "sha256": "2619aaac70a7d60015ed33a76484c89de235131cbeb81248e9b92f0716a87149"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00222.png",
+      "sha256": "d19012496af3aed676936dbe8a04beb364e435a6dbe0495100f2e0f4a28e33cf"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00223.png",
+      "sha256": "9308c91855ff4646ed0af12ce99c94a6905a22a0f19466e32f863c42c9c10439"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00242.png",
+      "sha256": "5d076ef5f93945fb769de9ab62d14890016802b277aa2e98e6f1ab53fbc98710"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00261.png",
+      "sha256": "943f730d40fd12a8b22f22ffa08ca683963a10f7ac8d48ffc88b6d59b4745b6e"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00264.png",
+      "sha256": "dad71e56cea3f98f806db757205aa41e609efe52ebd8d0a768c1101372b3bb0b"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00265.png",
+      "sha256": "63aaf75c2da7fa2d662ffc3f8e85a70910d7c9349f26bf97cb58be4c4fe8708d"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00304.png",
+      "sha256": "24d20b0e3527625af7012bd6453ea2dfa2e19012004197ff19713996cdb388c8"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00314.png",
+      "sha256": "83c7ad4918ad1273ecfd3672c9f86e60051cb0e4d7474654bb61b837c1ee23c5"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00372.png",
+      "sha256": "2ec47e6ef7baa0e562c91c8cf8718e294f2e443a46c5e7fe174b9e4db55e3582"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00404.png",
+      "sha256": "20929b90ee460ac172da3bff7d734909c42fdf1ca870fc16fd6cc2b9a3df6f25"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00436.png",
+      "sha256": "04b9cc96db13db88664aeb7c0a12c49ae9a94e10f1694424ebff85497b8ad917"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00447.png",
+      "sha256": "25e6dcb212dabae2330450aa1d4fc5108fd457a9014318e122a533ade1755a96"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00457.png",
+      "sha256": "e8afff5c44382a0847c9d1b5ed68bbf725b5ed70c67643db2038c71a87f1b2bc"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00479.png",
+      "sha256": "037de7215ff5e929bb066b0aef9605c1c61fb04e99d008715087b04262fdedd0"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00493.png",
+      "sha256": "7b1dd21b55b0b92d24ae35fac1893cb007e68dbe6b4571a72293d71f35e7fa6e"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00495.png",
+      "sha256": "3930007cd16d094a12d2dc1a5d6b895e258db1cedd7a61a933588f7864f739de"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00502.png",
+      "sha256": "288d60a624eb67cfde9be3d9966092edbb9f3bd7df23f954ba50fe890ff97391"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00509.png",
+      "sha256": "d20c8ba889a4472c2f1e88621e22a43f1cee7de90a1e88681d92b723c5802421"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00537.png",
+      "sha256": "066e95dbf97aafece9b72bbdaed2ac5cfabc05eaee679061cdc403ad77a933b8"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00543.png",
+      "sha256": "d0242febd72b139fd92cf1ff5b6109270cff207baa8a753c4adb12784d22f374"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00564.png",
+      "sha256": "0451ae133ffffe0ca0e2e7f39e19c26a83e3055bfb9c20b66cdbbae2fd39bf13"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00568.png",
+      "sha256": "a34c3a0c478e463ed0bf0c82725dd2227b9e28b82b6bb9ec7ac9b93892830bf0"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00575.png",
+      "sha256": "73379e43c0ad4a68a0f35b473aa0a427c6a6d08b326086fd561eced59b296323"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00593.png",
+      "sha256": "33a3a20f3a62ac79c8c05b5b45a5df19b2e6d73ed5e229cfbd9b822a12b6fbc6"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00598.png",
+      "sha256": "fa4f664cf67aff3d0e341247fe2effcf8194febf24ab34b02adfb2a2a69f32db"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00603.png",
+      "sha256": "4b31a2ed84dbd451173f53432d8f91c4eaeb94954659b1eeeadd87b64cce7fab"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00607.png",
+      "sha256": "ad529b37222a48170c9d2dae86a9dd3224b9c9be3fff53c6072432f3c4ef34cf"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00608.png",
+      "sha256": "f277b640b7c05aa7b66e7e9f0fb12703393642bd811ab08869fac8965204eec7"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00635.png",
+      "sha256": "bc0e32fa37d33344bc0af76307e53094d353fc8ac3528407c398cf6515ee94a2"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00639.png",
+      "sha256": "d21655d7a178b734883231a7cd1ac4b056602b50ae5043d17ec2bb3c42f7d247"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00647.png",
+      "sha256": "dd32ecb5b9dc9bb6127061d8ee670a7f8c6079ba8df924b67ca4826fe457fcf4"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00658.png",
+      "sha256": "c904a78e1c77bffdb7b1a9b0b14844cb66ec654b21c7865ade95751220c71ac6"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00664.png",
+      "sha256": "a0a8aa126e586933277d7ba786f28b328dfcca89597ec8dfa7509d59308340c8"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00678.png",
+      "sha256": "e463c52eb60154ab6f978b8883403334456b5488496867f2576f9815d0b54d7c"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00680.png",
+      "sha256": "0ed7d987c8657aee5af7591120e53ed7d20a436681f23c7df529562af9468a77"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00694.png",
+      "sha256": "4ca0a4b7b4927dd49c43ab50b8b6bbc644e5702b8da30925d89f1b89df8bef90"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00729.png",
+      "sha256": "3d08e32b0de1da328aad5acadee18b27f182f7a5cc049943886048bee95c1105"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00744.png",
+      "sha256": "6183fab6de80940b2cd8f5cea2108e4426a5e97bb0cad2cce6ef924a840f21b0"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00746.png",
+      "sha256": "e05b92a6c645290fcbc6a764ed18c0f793fb521ff66988a02a6358d13563922d"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00782.png",
+      "sha256": "21b38da40a59143cf4c61036070920808efe7fa8171ab1e799de3cb383ef6e6e"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00851.png",
+      "sha256": "0d37656d1cff1f8692e0056d095409a4d647601ffdb42692e16d133a1e2e71b3"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00858.png",
+      "sha256": "3c7f3223d19c0fb72099aaf80b50b61fbc16729ba27bf50a8206ce47152b39ac"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00877.png",
+      "sha256": "fbbf0da2f3616f96cda46b783f9f1334cbcf8503b2ed4e493f33724a3ddf2caa"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00917.png",
+      "sha256": "c3b4751572607183eca1a8ca4b6f7043c110a8dffe59457e539de0b6f715985e"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00919.png",
+      "sha256": "ebf554ac450a0b9cfbd9b90a35b221dec3e6dc6521c4a9b3be7b997bfa0cff9d"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00929.png",
+      "sha256": "c1fb122452346c5a8ec9d6018c240effc7009c2bc1da269fb16b858298ddff38"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00934.png",
+      "sha256": "0109c61da5355d1523b2092ac117cbd0b09c75766335adc604a1c58aecab6427"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00946.png",
+      "sha256": "d5c0819b6382db4e13699dc5a5a3050ec49bbed397598a4de9cd4bf76fbd51f2"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00949.png",
+      "sha256": "147fe6930fe0dfec238d11e1dd902c309197c661f28e0ee6dbb122dd16b34a18"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00971.png",
+      "sha256": "a802d26e78dac4a346b4c6c028b3c4928927eae2986160df2fcfdf82cad7eac0"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/00976.png",
+      "sha256": "8773c3f76e3c7f498ea09162fdf2c3f0bd22185006931c403771b1b32732ca63"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01006.png",
+      "sha256": "6b3e48cc8d83219ef05e1fd5d2a0195642d85bb46106206b1d9fbf530d21648a"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01013.png",
+      "sha256": "e84abaf706cf0c0e2e501dfb57f5da90d2b94c6412371335ece5faeec65381fc"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01016.png",
+      "sha256": "43b0dafe32d22909529026ea989206b9b18a619fa29b9aef1c27cfd080e0ed14"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01020.png",
+      "sha256": "8747dbf39ce38a837f76d6b7cc5a57e06eda92724bc11b4376a01d71429d2665"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01023.png",
+      "sha256": "942e3391cf3bb7c83f4fda3a00b946d7f2f6114d368ea0ac2541cf0e7d5a5f1c"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01032.png",
+      "sha256": "272318abf13a557acca31eed966cbeed60ccf3abbcc946793e643401ef6a71d2"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01040.png",
+      "sha256": "573f9983750e70a4df9ad3fc14eda087e1f1417f8e9807078b352782b99ed667"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01041.png",
+      "sha256": "9f9d2ade37846d4e6506acbdafc729df5364fa3e7d7f542c0d9a642186bbff0d"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01057.png",
+      "sha256": "9899837a2c13a302ca88631446b86dbca8affc3a6fc8a12f11b8ebb7b5b2e55b"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01072.png",
+      "sha256": "c1979f6e23c316e1b3f24699decbe997527c48417a83c82310cf64d99069fc15"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01097.png",
+      "sha256": "54c294b223ea058d8d624efdd5383e28d38146c7b933506aecf6bc6f6d8e2775"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01099.png",
+      "sha256": "1b00af8076d8cebec66768b02eb120d3868d766a87af7f2c116c0550c4c291e6"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01113.png",
+      "sha256": "db0f4a279e6f9d8be1afc73adfa30cd565d47a73a0c51ea0708ba3fdf6d41773"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01114.png",
+      "sha256": "f2e011dfc24bc043b93e856808b698fec8d7a129a76df1e6092572ab56d81289"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01126.png",
+      "sha256": "e70873d0a7ecb138d61f17810ebb7398425b95df123262d3928cda5f2a74e03d"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01128.png",
+      "sha256": "b0f5c3f0dd94a73f2fb4a7d1b44130516b4860170d06595df23ce9b7a1a6d371"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01154.png",
+      "sha256": "faf4f224d6f50801afd5ace9c2f921d4701494b09adc20fa3655ba28de79da4a"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01159.png",
+      "sha256": "85bc1b17c2f882df893757293239f20e74608cc01fd79a3018b3bedc5bad9dcd"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01163.png",
+      "sha256": "3e18ddd727ef5d297b2217469dce752a0d260b4bdb1f84f0dd29b3689f498d66"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01179.png",
+      "sha256": "91b58fc90511b7d7df013fe345fa0448ebe42f216d02847848282e84aa4073aa"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01192.png",
+      "sha256": "020007157c2c4a0d017a9aa4ccbbc56d4c7372a08903fe43a3e1d71e6cb15c0d"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01211.png",
+      "sha256": "47a1a18ea90dd121a351c9da7417076fb585a14ed5c07c0a9ebf3248973f2b10"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01234.png",
+      "sha256": "87d1649d5fa4e55c1cdfd5db9b8a90c255997cff3589c0f464a6ec1b6a515fd5"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01245.png",
+      "sha256": "306dcd566f505f8b981eeee72b060407cb2877d9eabf2750dfdcb9bdf9984cf8"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01260.png",
+      "sha256": "d8271f8b112406a92f2dca02d7358a141fb820683b6e6d18f2dc347e3407ab49"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01262.png",
+      "sha256": "010eacbbcd697e771ecf679cf6994ddd8a95257cef4cd45e2b60fc03bfbd54cc"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01287.png",
+      "sha256": "dd9cab94dafd5fbf5147f04f6f0314c217fda7b00abff1612549fa328b2f2f19"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01306.png",
+      "sha256": "80baeffd5f082f810534fe8151c67e08ac29d4e588e123054c2ed33fb649d6d5"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01314.png",
+      "sha256": "afa41bdb43d9dc450f8c44efb9b809e0a621a33a4b4877103413e477eea66e0b"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01327.png",
+      "sha256": "8560a2b6d9c483148cfc4c20ed41c174a657a524d48f038dda73645fedc11be3"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01333.png",
+      "sha256": "89f52176f34e2c68fae5c95bd1cd4307b2ceecf200743a5b533ab29d5044b928"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01354.png",
+      "sha256": "a380591ba9ec9e0154a68800f2dc0c79eb7eeb2bf026de4eeb828d63c85045f3"
+    },
+    {
+      "path": "data/raw/radar/train/label_1D/01382.png",
+      "sha256": "5ce10856218ab26880c082ea8ee4bedc8a35d59594ab0acf7b7e3f8a725355a6"
+    },
+    {
+      "path": "data/raw/radar/val/image/00036.png",
+      "sha256": "8d8a9842e4bcf9f073131849e16e42d165735c9d3beb12611d9be58ba3fa11d0"
+    },
+    {
+      "path": "data/raw/radar/val/image/00038.png",
+      "sha256": "300417bd6050416e1b1897033f362c30dcb2f65ccb3e7334dbb6fba9a14b9bf0"
+    },
+    {
+      "path": "data/raw/radar/val/image/00044.png",
+      "sha256": "1d27bf694bb6aa224449a7b4e352d61b0cb62f3a17cbafa918bb22efdf2d4c13"
+    },
+    {
+      "path": "data/raw/radar/val/image/00052.png",
+      "sha256": "b62a192ab30c2b12174fe94746d31791d2c64214b647601dd2eb492d4ed520e5"
+    },
+    {
+      "path": "data/raw/radar/val/image/00059.png",
+      "sha256": "725ff4560f4f28be129e5b69a67a4865b782d28218178cb4131bde1e5be086ec"
+    },
+    {
+      "path": "data/raw/radar/val/image/00119.png",
+      "sha256": "8a07747133efc38922fa73904510befddd59e9326c4ad966e9acd1074879ed94"
+    },
+    {
+      "path": "data/raw/radar/val/image/00125.png",
+      "sha256": "ac48dbddf375c9a20ab94eb12997c6519b1b3050e7c2a73382c57a4143930cc7"
+    },
+    {
+      "path": "data/raw/radar/val/image/00150.png",
+      "sha256": "30a000a26dc8fa99d5e5e738d50219fb68cf0008eb3ca940168a7911dfbcd1f4"
+    },
+    {
+      "path": "data/raw/radar/val/image/00151.png",
+      "sha256": "0d1060179e8fa8ed7cafde606450fd4fa62a44c02f6d9388f58befd0404a3fee"
+    },
+    {
+      "path": "data/raw/radar/val/image/00158.png",
+      "sha256": "63bb01a9d8f34f6177ebacded43751b82208d17781359e1b8a4560b616226282"
+    },
+    {
+      "path": "data/raw/radar/val/image/00163.png",
+      "sha256": "2b2363c8ef1b09065f4fa1b688f2f0e7256c36c3e1a9ccff03e9f957d58ce380"
+    },
+    {
+      "path": "data/raw/radar/val/image/00205.png",
+      "sha256": "096ae3174f79b3d7a56d79bba07c730bc6458ce3623755f9d7f24d4e4c12ea41"
+    },
+    {
+      "path": "data/raw/radar/val/image/00206.png",
+      "sha256": "2cdb86a4fd45172aea9e1684f043619308bf5c983d826245530645c0ea8b530b"
+    },
+    {
+      "path": "data/raw/radar/val/image/00207.png",
+      "sha256": "512f14bafd13327f48ee102f227a9578f108c066252cdaf5fa410e9c83cfd583"
+    },
+    {
+      "path": "data/raw/radar/val/image/00212.png",
+      "sha256": "a832400c2b97a735ab53781f51b832d8cf366ce178706cea85e7c6af9208cba1"
+    },
+    {
+      "path": "data/raw/radar/val/image/00221.png",
+      "sha256": "e60ff57558a8435fd86a42949b0ace2fcc84e1cbd1ab29ee447f72a7d8ed8375"
+    },
+    {
+      "path": "data/raw/radar/val/image/00265.png",
+      "sha256": "f4c74e8c8d8b2cd81097794617e75997552bb9d8c6bfb8b25ef9e5b3aa3f204d"
+    },
+    {
+      "path": "data/raw/radar/val/image/00275.png",
+      "sha256": "b94ed1ad047b6ffcdce68c2e3a6e518f282fdbbab847177c07374ac0947f2535"
+    },
+    {
+      "path": "data/raw/radar/val/image/00314.png",
+      "sha256": "9227d3b12275ebcf101ed57d3f3e3fb269e97bb9bbb3aa5e5fcd60e84f2707d3"
+    },
+    {
+      "path": "data/raw/radar/val/image/00327.png",
+      "sha256": "8dfce0a8fff6f202aa1804b59bb594f9ae36e4e8968b356700981b1fa36f0ddd"
+    },
+    {
+      "path": "data/raw/radar/val/image/00329.png",
+      "sha256": "3407ef74347fc7be38a90aca263d33c072984bb52d040ae8ec07b0c0e7a0ec84"
+    },
+    {
+      "path": "data/raw/radar/val/image/00338.png",
+      "sha256": "4fee5a18705627798194c72cb4d7e01e8e641530264948674b3e93b6d2bcc6d2"
+    },
+    {
+      "path": "data/raw/radar/val/image/00345.png",
+      "sha256": "dd3cf016427d8d6e2c14ee18b2e7e3cb95c32ec3fa64bc474314502480e4d5ad"
+    },
+    {
+      "path": "data/raw/radar/val/image/00354.png",
+      "sha256": "d7327ed0d96e2b8e0508bb529ef5c0a57ebb3556fec68d3ef0008f4f172141b3"
+    },
+    {
+      "path": "data/raw/radar/val/image/00361.png",
+      "sha256": "de91265232bca89908366a0046f02e90a9dc2c82ec7434280c38c728529bb43b"
+    },
+    {
+      "path": "data/raw/radar/val/image/00406.png",
+      "sha256": "0a6ccea6bec8036e30eb032a6779f69f4ff77557b170bcdb1c5d50b91993a115"
+    },
+    {
+      "path": "data/raw/radar/val/image/00419.png",
+      "sha256": "61423c32ac5db24e54e263c2f66f594c570888d6de95bf80cab405ce455b1d79"
+    },
+    {
+      "path": "data/raw/radar/val/image/00422.png",
+      "sha256": "2e67ff2fc2aca95933a8c1abe1394d5242c041c39c773a47c9b58365d595b678"
+    },
+    {
+      "path": "data/raw/radar/val/image/00428.png",
+      "sha256": "470f68286865fc2e569b3d75191ed4136aba4b147aca1962a0c573f1d15c25f0"
+    },
+    {
+      "path": "data/raw/radar/val/image/00439.png",
+      "sha256": "28a9f75866ffe343b875df3098fb08ba9b01cc25dea066ad2fac076c2ff0519c"
+    },
+    {
+      "path": "data/raw/radar/val/image/00453.png",
+      "sha256": "871e74c4e45468c2914bb9db861b961042afca2b3956c9fc0097cdc9de019586"
+    },
+    {
+      "path": "data/raw/radar/val/image/00455.png",
+      "sha256": "387d1b52f7e8341a413f77eaf764d55b10b5b98e7cebae5cb90499a78ec3350d"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00036.png",
+      "sha256": "5da9e1f2fdaf3e7deeadc804525c665a58ff1bf1cba0d3c78f65510c2d51965f"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00038.png",
+      "sha256": "a2244b785df1ca530e068f62abb12c0366b8920f6acbf841324a1e1d003302b7"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00044.png",
+      "sha256": "24d1a24697264c672eb744089536c93dc61c1e2057b9f70b5081dc3ae34b58dc"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00052.png",
+      "sha256": "90312672af8fb2a04d23200b8f32b5747e9bde0e32dd6d957f10d48e8664ffa8"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00059.png",
+      "sha256": "9e47f06f0b8bfcc1b7c0110a7c3fc9163710f2fb6f02a8a7111e6b5ad6645aad"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00119.png",
+      "sha256": "bb9c2c8237001d72fc528df85dd8210d4288895f3b8a21ace859be1067c66a18"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00125.png",
+      "sha256": "80f857c67ff619ec24cf44076d1de43a490172a8a04e757798e1756c39666b17"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00150.png",
+      "sha256": "c6f653c2079bcfd74ac8e03aec998185cab6704000424fa63b65c487dd548fd5"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00151.png",
+      "sha256": "f1ca33e8b89494f4d75066bd885ed15941883f0b416928755dce41bfb7ceb615"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00158.png",
+      "sha256": "ccec7217d70d17af4918ffa289e31d1da6e738d048d89ba63f2ec3a909b029a6"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00163.png",
+      "sha256": "cf1da09cd20138ba705a1f6a485c82cca1bb7a261bf5d49480d356ae97be15c3"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00205.png",
+      "sha256": "c0beda06c8b23feae2b60e644b5a72bb6fab1958b1788a6d2b4bb2801e336353"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00206.png",
+      "sha256": "f1a7cb225058774d6e7686abb7166d8ccb7f4bf4955f5ba571e3f5d998173df0"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00207.png",
+      "sha256": "82a62ad4c3680e5346b783e2c20885d5479b0d70b40850597ba460f08764138e"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00212.png",
+      "sha256": "665040e5f2f972e3918facef73c7ea969301c46360dfece78753cf089c66aaa5"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00221.png",
+      "sha256": "3ac22a018c9bbca8204bcb4475ef57cdca1a30c8a2fc62c9f380eada86a1c262"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00265.png",
+      "sha256": "de90e4704170941da0a947fdfc020dd5412182224288932ed5b05223ebd4abf5"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00275.png",
+      "sha256": "6cf600d0471d6e6c334a327faeb5d0e7104321ceec7009c8cfa6bacbeb0e1511"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00314.png",
+      "sha256": "25a70082637ecbbc8f77f924d3a0c7db9cbf1120be4a2211f05cd8997ca6544c"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00327.png",
+      "sha256": "4536ae62b96de580ca8bd8c0526e3eedbb3eab3036b0a9201b7753d05af4392e"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00329.png",
+      "sha256": "0eb9231b1aea7bf58ffd99e74e9a11f8a710a50baa0483ee596090eca2e92a99"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00338.png",
+      "sha256": "d26c6531938ff4a4a71fb51b1249593c8d70ccc3d2d225009619fc595c80e875"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00345.png",
+      "sha256": "81f417775f1bbed613cb3cd5b1926c69f20ab7f0edaa03cfde6553edbe8a34b7"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00354.png",
+      "sha256": "48bbe28a2ade060b0316aca81a82e10b705ad15a6e5379aacf04e6ab88f05f71"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00361.png",
+      "sha256": "e3e199136e3c5af153f2be49c8b6b904903bae1756209ec01de8df322e7df367"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00406.png",
+      "sha256": "495279375afcd9aee78a7da4a701aeba9ae56942fdd00daa18da9a1b4780f19f"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00419.png",
+      "sha256": "e67ef1ff9c6e17ec6dfcf96b7e4562f3fc9a5b3d3eec525dd028f19fca302e8e"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00422.png",
+      "sha256": "a073a85b8628c2cd4dc9e5201d20336b4136b79e7a7744ddaea1da58f38e4f64"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00428.png",
+      "sha256": "25011792b36962ef9b565a7cb5097d39257c61f6394a0b59627e5320047d0c05"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00439.png",
+      "sha256": "975d9e793b93f351684e41abdbd4f878f1b765495112cd09a09f3ef2069c5809"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00453.png",
+      "sha256": "843d0e9c83e4b4c8a643f606c715594b102a636e06af8dc29d660954109632d2"
+    },
+    {
+      "path": "data/raw/radar/val/label_1D/00455.png",
+      "sha256": "0c79f6311513c2184532585cf8df132dcdac369bb11ec8a0ec6a7686bfa83b6e"
+    }
+  ]
+}

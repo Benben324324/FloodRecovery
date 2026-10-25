@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "rasterio": "1.5.2",
+    "requests": "2.34.2",
+    "Pillow": "12.3.0",
+    "libarchive-c": "5.3",
+    "nbformat": "5.11.1",
+    "IPython": "9.17.1"
+  }
+}

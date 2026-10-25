@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-10-01T05:35:03.424271+00:00",
+  "population_url": "https://data.worldpop.org/GIS/Population/Global_2000_2020_1km/2020/CHN/chn_ppp_2020_1km_Aggregated.tif",
+  "population_bytes": 52146107,
+  "population_sha256": "48cdcd7217cd88e877b2de2cdae027cafe1b12684ecd90c0053cdd4bdbb54f83",
+  "boundary_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/CHN/ADM2/geoBoundaries-CHN-ADM2_simplified.geojson",
+  "boundary_bytes": 7018287,
+  "boundary_sha256": "8c7dfa8e40842f9162453d9b0b614276a48bf635559ba371c7982cb288e7b303",
+  "boundary_year": "2017",
+  "county_features_retained": 24
+}

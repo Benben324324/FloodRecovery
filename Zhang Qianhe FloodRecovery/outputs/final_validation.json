@@ -1,0 +1,12 @@
+{
+  "report_pages": 7,
+  "report_figures": 7,
+  "report_tables": 5,
+  "notebook_code_cells": 8,
+  "notebook_image_outputs": 7,
+  "notebook_errors": 0,
+  "scientific_tests_passed": 7,
+  "pdf_visual_review": "All seven pages reviewed; no clipping or overlap",
+  "latex_warnings": 0,
+  "report_sha256": "879b8a59ecfd8d1f06b0fbb8268bf613aa1b7649f8a0471b14093ae402014b18"
+}

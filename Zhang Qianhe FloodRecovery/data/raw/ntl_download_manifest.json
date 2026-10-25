@@ -1,0 +1,95 @@
+{
+  "checked_at_utc": "2026-10-01T05:31:55.733018+00:00",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "downloads": [
+    {
+      "city": "Zhengzhou",
+      "url": "https://zenodo.org/api/records/17079409/files/071-080.zip/content",
+      "http_status": 206,
+      "archive_bytes": 645537581,
+      "transferred_bytes": 14790244,
+      "members": [
+        {
+          "path": "data/raw/ntl/073_20793_Zhengzhou_2020.tif",
+          "bytes": 6856285,
+          "sha256": "c4d9d20bdb0aa28c910535a7e07299397692a1d8285f10146b3a6e569a9a722b"
+        },
+        {
+          "path": "data/raw/ntl/073_20793_Zhengzhou_2020_Flag.tif",
+          "bytes": 193003,
+          "sha256": "c1f28020160973eba45e6b5c4f8a85f2da15ce8af78fff4c076fdb5fd7ee0d16"
+        },
+        {
+          "path": "data/raw/ntl/073_20793_Zhengzhou_2021.tif",
+          "bytes": 7548198,
+          "sha256": "76c895c9ecdd21a7aa3c885a9bb7e653c02d789ae10c88fadf93171a1154d8ac"
+        },
+        {
+          "path": "data/raw/ntl/073_20793_Zhengzhou_2021_Flag.tif",
+          "bytes": 220922,
+          "sha256": "83c129191e33f4f773e3ae08160047805cb90318d7a08c61e6439c06ebac3191"
+        }
+      ]
+    },
+    {
+      "city": "Kaifeng",
+      "url": "https://zenodo.org/api/records/17079409/files/401-410.zip/content",
+      "http_status": 206,
+      "archive_bytes": 179174384,
+      "transferred_bytes": 3295608,
+      "members": [
+        {
+          "path": "data/raw/ntl/410_20581_Kaifeng_2020.tif",
+          "bytes": 1557971,
+          "sha256": "094626b58c1f6ce31bd5bfe145f6ce94cd1f3c4bee77ad87240e00c6a840bc43"
+        },
+        {
+          "path": "data/raw/ntl/410_20581_Kaifeng_2020_Flag.tif",
+          "bytes": 82560,
+          "sha256": "4f91309e42888812dc0a0bc97cf1e89ce525fe345128972dd38fab7caf16eca5"
+        },
+        {
+          "path": "data/raw/ntl/410_20581_Kaifeng_2021.tif",
+          "bytes": 1582560,
+          "sha256": "c7e10ee0ed2f5958bb88c09dc6ab7786172662ba9e409cfdabbb2d69325cf21f"
+        },
+        {
+          "path": "data/raw/ntl/410_20581_Kaifeng_2021_Flag.tif",
+          "bytes": 79442,
+          "sha256": "05425cf937f18801ba193f438d6fddc8d4644e86faa4725f81fbbb7ca95f22bd"
+        }
+      ]
+    },
+    {
+      "city": "Xinxiang",
+      "url": "https://zenodo.org/api/records/17079409/files/531-540.zip/content",
+      "http_status": 206,
+      "archive_bytes": 249030555,
+      "transferred_bytes": 3923270,
+      "members": [
+        {
+          "path": "data/raw/ntl/536_20739_Xinxiang_2020.tif",
+          "bytes": 1845683,
+          "sha256": "58681df0c651ac75c8c39773c17eb7a45b4dac86d75ea656e1281133b0b19042"
+        },
+        {
+          "path": "data/raw/ntl/536_20739_Xinxiang_2020_Flag.tif",
+          "bytes": 75259,
+          "sha256": "50ad39ad5bacc1b0e02266da8a010f1e22924f221ea99ea9a430d4a0d76c7ae2"
+        },
+        {
+          "path": "data/raw/ntl/536_20739_Xinxiang_2021.tif",
+          "bytes": 1928687,
+          "sha256": "07d357427b6a64a2005e00c7d8d78198ac3b48d59530ef884d93275389bfeda6"
+        },
+        {
+          "path": "data/raw/ntl/536_20739_Xinxiang_2021_Flag.tif",
+          "bytes": 79347,
+          "sha256": "d896d6f286c84c155f7a211d44a3199ca4e0b6df429c9a973a597e0de412dba5"
+        }
+      ]
+    }
+  ]
+}

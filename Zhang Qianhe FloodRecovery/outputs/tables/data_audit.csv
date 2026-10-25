@@ -1,0 +1,7 @@
+city,year,annual_bands,study_bands,height,width,flag_height,flag_width,flags_reprojected,first_date,last_date,bright_pixels
+Zhengzhou,2020,156,42,197,197,194,194,True,2020-06-02,2020-09-23,
+Zhengzhou,2021,169,45,197,197,194,194,True,2021-06-03,2021-09-30,10902.0
+Kaifeng,2020,161,39,101,101,98,98,True,2020-06-02,2020-09-23,
+Kaifeng,2021,162,44,101,101,98,98,True,2021-06-03,2021-09-29,1370.0
+Xinxiang,2020,161,40,101,101,98,98,True,2020-06-02,2020-09-27,
+Xinxiang,2021,163,44,101,101,98,98,True,2021-06-03,2021-09-29,2242.0
